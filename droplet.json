@@ -1,0 +1,42 @@
+{
+  "id": "chrome-dino",
+  "name": "Chrome Dino",
+  "version": "1.0.0",
+  "summary": "The offline dino runner, on your shelf",
+  "description": "Chrome Dino brings the offline dinosaur runner to Droppy's shelf. Tap or press jump to hop the cacti, chase your high score, and open the takeover for a bigger run.\n\nThe shelf widget is the full game. The expanded surface is the same run with more room, and Settings keeps your high score and options.",
+  "category": "Productivity",
+  "kit": {
+    "abi": 1,
+    "minAPI": "1.9.0"
+  },
+  "minAppVersion": "15.3.0",
+  "capabilities": [
+    "shelf-write",
+    "expanded-surface"
+  ],
+  "surfaces": [
+    "shelf-widget",
+    "expanded-surface",
+    "settings-pane"
+  ],
+  "icon": "ChromeDino.icon",
+  "creator": {
+    "name": "Your name",
+    "kind": "community",
+    "url": "https://example.com",
+    "avatar": "Creator.png",
+    "gitlab": "your-gitlab-username"
+  },
+  "source": {
+    "repository": "https://gitlab.com/droppyformac1/droplets/-/tree/main/droplets/chrome-dino",
+    "license": "MIT"
+  },
+  "screenshots": [],
+  "keywords": [
+    "dino",
+    "game",
+    "runner",
+    "chrome",
+    "jump"
+  ]
+}

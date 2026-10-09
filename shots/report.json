@@ -1,0 +1,149 @@
+{
+  "activation" : {
+    "active" : true,
+    "error" : null
+  },
+  "activity" : [
+
+  ],
+  "artwork" : {
+    "creatorAvatar" : "ok",
+    "icon" : "ok"
+  },
+  "capabilities" : {
+    "declared" : [
+      "shelf-write",
+      "expanded-surface"
+    ],
+    "granted" : [
+      "expanded-surface",
+      "shelf-write"
+    ]
+  },
+  "droplet" : {
+    "capabilities" : [
+      "shelf-write",
+      "expanded-surface"
+    ],
+    "category" : "Productivity",
+    "creator" : "Your name",
+    "icon" : "ChromeDino.icon",
+    "id" : "chrome-dino",
+    "kit" : {
+      "abi" : 1,
+      "minAPI" : "1.9.0"
+    },
+    "minAppVersion" : "15.3.0",
+    "name" : "Chrome Dino",
+    "summary" : "The offline dino runner, on your shelf",
+    "surfaces" : [
+      "shelf-widget",
+      "expanded-surface",
+      "settings-pane"
+    ],
+    "typeID" : "chrome-dino",
+    "version" : "1.0.0"
+  },
+  "expandedSurfaces" : [
+    {
+      "id" : "dino-run",
+      "systemImage" : "figure.run",
+      "title" : "Chrome Dino"
+    }
+  ],
+  "harness" : {
+    "abi" : 1,
+    "apiVersion" : "1.20.1"
+  },
+  "liveActivity" : {
+    "publishing" : false,
+    "seat" : "none(idle)"
+  },
+  "lockScreen" : {
+    "publishing" : false
+  },
+  "log" : [
+    {
+      "at" : "2026-10-08T19:33:09Z",
+      "level" : "info",
+      "message" : "Chrome Dino activated, high score 0"
+    }
+  ],
+  "manifest" : {
+    "loaded" : true,
+    "path" : "\/Users\/danny\/chrome-dino\/droplet.json",
+    "problem" : null
+  },
+  "problems" : [
+
+  ],
+  "schema" : "droppykit-harness-report\/1",
+  "shelfWidgets" : [
+    {
+      "contentHeight" : "fixed(172.0)",
+      "id" : "dino-run",
+      "preferredPairedWidth" : 210,
+      "preferredSoloWidth" : 420,
+      "systemImage" : "figure.run",
+      "title" : "Chrome Dino"
+    }
+  ],
+  "shots" : [
+    "\/Users\/danny\/chrome-dino\/shots\/overview.png",
+    "\/Users\/danny\/chrome-dino\/shots\/shelf-widget.png",
+    "\/Users\/danny\/chrome-dino\/shots\/live-activity.png",
+    "\/Users\/danny\/chrome-dino\/shots\/hud.png",
+    "\/Users\/danny\/chrome-dino\/shots\/expanded-surface.png",
+    "\/Users\/danny\/chrome-dino\/shots\/settings-pane.png",
+    "\/Users\/danny\/chrome-dino\/shots\/lock-screen.png",
+    "\/Users\/danny\/chrome-dino\/shots\/menu-bar.png",
+    "\/Users\/danny\/chrome-dino\/shots\/capabilities.png",
+    "\/Users\/danny\/chrome-dino\/shots\/preferences.png",
+    "\/Users\/danny\/chrome-dino\/shots\/activity.png"
+  ],
+  "surfaces" : [
+    {
+      "declared" : true,
+      "implemented" : true,
+      "surface" : "shelf-widget",
+      "verdict" : "provided"
+    },
+    {
+      "declared" : false,
+      "implemented" : false,
+      "surface" : "live-activity",
+      "verdict" : "not-provided"
+    },
+    {
+      "declared" : true,
+      "implemented" : true,
+      "surface" : "expanded-surface",
+      "verdict" : "provided"
+    },
+    {
+      "declared" : true,
+      "implemented" : true,
+      "surface" : "settings-pane",
+      "verdict" : "provided"
+    },
+    {
+      "declared" : false,
+      "implemented" : false,
+      "surface" : "hud",
+      "verdict" : "not-provided"
+    },
+    {
+      "declared" : false,
+      "implemented" : false,
+      "surface" : "lock-screen-status",
+      "verdict" : "not-provided"
+    },
+    {
+      "declared" : false,
+      "implemented" : false,
+      "surface" : "menu-bar-extra",
+      "verdict" : "not-provided"
+    }
+  ],
+  "verdict" : "ok"
+}
